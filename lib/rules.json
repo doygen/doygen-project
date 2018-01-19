@@ -1,0 +1,31 @@
+[
+  {
+    "port": "generator",
+    "worker": "ProjectWorker",
+    "configuration": {}
+  },
+  {
+    "port": "doygen-file",
+    "worker": "TemplateBasedWorker",
+    "configuration": {
+      "template": "_doygen",
+      "output": ".doygen"
+    }
+  },
+  {
+    "port": "metadata-file",
+    "worker": "TemplateBasedWorker",
+    "configuration": {
+      "template": "metadata.json",
+      "output": "metadata.json"
+    }
+  },
+  {
+    "port": "rules-file",
+    "worker": "TemplateBasedWorker",
+    "configuration": {
+      "template": "rules.json",
+      "output": "rules.json"
+    }
+  }
+]

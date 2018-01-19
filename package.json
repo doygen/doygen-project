@@ -1,0 +1,19 @@
+{
+  "name": "doygen-project",
+  "version": "0.0.1",
+  "description": "Doy generator for Doygen projects.",
+  "main": "lib/generator.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "doy",
+    "doygen",
+    "project"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Artur Farias",
+  "license": "ISC"
+}
