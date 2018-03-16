@@ -1,31 +1,21 @@
 [
   {
     "port": "generator",
-    "worker": "ProjectWorker",
-    "configuration": {}
+    "worker": "ProjectWorker"
   },
   {
-    "port": "doygen-file",
-    "worker": "TemplateBasedWorker",
-    "configuration": {
-      "template": "_doygen",
-      "output": ".doygen"
-    }
+    "port": "potter-file",
+    "template": "_potter",
+    "output": ".potter"
   },
   {
     "port": "metadata-file",
-    "worker": "TemplateBasedWorker",
-    "configuration": {
-      "template": "metadata.json",
-      "output": "metadata.json"
-    }
+    "template": "metadata.json",
+    "output": "metadata.json"
   },
   {
     "port": "rules-file",
-    "worker": "TemplateBasedWorker",
-    "configuration": {
-      "template": "rules.json",
-      "output": "rules.json"
-    }
+    "template": "rules.json",
+    "output": "rules.json"
   }
 ]

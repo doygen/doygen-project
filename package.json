@@ -1,19 +1,25 @@
 {
-  "name": "doygen-project",
-  "version": "0.0.1",
-  "description": "Doy generator for Doygen projects.",
+  "name": "potter-project",
+  "version": "0.1.0",
+  "description": "Potter Generator for Potter projects.",
   "main": "lib/generator.js",
   "scripts": {
     "test": "test"
   },
   "keywords": [
-    "doy",
-    "doygen",
+    "potter",
+    "potterjs",
     "project"
   ],
   "directories": {
     "lib": "lib"
   },
-  "author": "Artur Farias",
-  "license": "ISC"
+  "author": "Artur Farias <artur.farias@embedded.ufcg.edu.br>",
+  "contributors": [
+    {
+      "name": "Rodirgo A Vilar",
+      "email": "rodrigovilar@dce.ufpb.br"
+    }
+  ],
+  "license": "MIT"
 }

@@ -1,3 +1,5 @@
 {
- "project": "<%= project.name %>"
+  "project": "<%= project.name %>",
+  "entities": [
+  ]
 }
